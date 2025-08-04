@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri</title>
+</head>
+    <div class="video">
+        <video autoplay muted loop id="video-background">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#Makanan">Makanan Favorit</a>
+            <a href="#Lagu Favorit">Lagu Favorit</a>
+            <a href="#Hobby">Hobby</a>
+            <a href="#Tokoh">Tokoh Favorit</a>
+        </nav>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class= "img">
+            <img class="lingkaran" src="Angga.jpg" alt="yogiri">
+        </div>
+        <div class="Text-home">
+            <h1>Halo Nama saya <span class="span">Mahangga Wahyu Wisesa</span></h1>
+            <p>Ini adalah website perkenalan yang saya buat menggunakan bahasa pemrograman HTML, CSS, dan JavaScript</p>
+        </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="Makanan" id="Makanan">
+        
+        <div class="Text-makanan">
+            <div class="ImgTextPosition">
+            <h1 >Makanan Favorit</h1>
+            <h2>Nasi Goreng</h2>
+            <img src="NasiGoreng.jpg" class= "size-img" alt="NasiGoreng" >
+            <p>Untuk makanan favorit saya sendiri adalah nasi goreng, karena rasanya yang lezat dicampur dengan sayur-sayuran,apalagi kalau ada telur dan kerupuk🤤</p>
+        </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="Lagu" id="Lagu Favorit">
+
+        <div class="Text-Lagu">
+            <div class="ImgTextPosition">
+            <h1>Lagu Favorit</h1>
+            <h2><a href="https://youtu.be/rvgSHDsJDsE?si=7eGw2MYKHBP-GHG9">Line Without A Hook</a></h2>
+            <h3>By Ricky Montgomery</h3>
+            <img src="LineImg1.jpg" class= "size-imgLagu" alt="Line Without A Hook">
+            <button class="tombol">
+                <div class="imgplay">
+                <img src="paused.png" alt="button" id="play">
+                </div>
+            </button>
+            <p>Lagu favorit saya adalah Line Without A Hook</p>
+        </div>
+        </div>
+        <audio id="mySong">
+            <source src="Line.mp3" type="audio/mp3">
+        </audio>
+    </section>
+    <div class="divider"></div>
+
+    <section class="Hobby" id="Hobby">
+
+    <div class="Text-Hobby">
+            <div class="ImgTextPosition">
+            <h1>Hobby</h1>
+            <h2>Membaca dan Bermain Game</h2>
+            <div class="imgHobby">
+            <img src="Game.jpg" class="size-hobby" alt="Bermain game">
+            <img src="Membaca.jpg" class="size-hobby" alt="Bermain game">
+            </div>
+            <p>Hobi saya adalah membaca dan bermain game</p>
+        </div>
+        </div>
+        </section>
+     <div class="divider"></div>
+
+    <section class="Tokoh" id="Tokoh">
+
+        <div class="Text-Hobby">
+            <div class="ImgTextPosition">
+            <h1 >Tokoh Favorit</h1>
+            <h2>Sora</h2>
+            <img src="Sora.jpeg" class= "size-img" alt="Sora" >
+            <p>Tokoh favorit saya adalah Sora dari anime berjudul no game no life.Alasan mengapa saya mengagumi karakter tersebut dikarenakan pemikirannya yang sangat saya sukai, salah satu contohnya yaitu dia dapat menyelesaikan berbagai masalah dengan kepala dingin</p>
+            <p>
+                <a href="https://no-game-no-life.fandom.com/id/wiki/Sora">info selengkapnya tentang sora</a>
+            </p>
+        </div>
+        </div>
+    </section>
+    <button onclick="scrollToTop()" id="scrollUpBtn" title="Kembali ke atas">↑</button>
+    <script src="java.js"></script>
+</body>
+</html>
